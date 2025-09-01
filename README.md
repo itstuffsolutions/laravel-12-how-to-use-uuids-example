@@ -29,7 +29,7 @@ Dive into how to set them up using **Laravel 12 migrations**, **Eloquent traits 
 <li>Use `Str::uuid()` for random UUIDs</li>
 <li>Use `Str::orderedUuid()` (UUID v7) for better indexing</li>
 <li>Use ULIDs with `HasUlids` trait for short, URL-safe IDs</li>
-</ul> :contentReference[oaicite:6]{index=6}
+</ul> 
 
 ##  See It in Action
 
