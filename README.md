@@ -1,5 +1,5 @@
 # Laravel 12 UUIDs: Generate, Configure & Use UUIDs, ULIDs & Ordered UUIDs
-[ULID Example](https://itstuffsolutiotions.io/wp-content/uploads/2025/08/laravel-uuid-example.jpg)
+![ULID Example](https://itstuffsolutiotions.io/wp-content/uploads/2025/08/laravel-uuid-example.jpg)
 
 🚀 **Boost your Laravel apps** with globally unique identifiers—covering UUID v4, ULID, and Ordered UUID (UUID v7). Learn when and how to implement each for enhanced security, performance, and scalability.
 
