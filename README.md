@@ -9,21 +9,21 @@
 - **ULIDs** — Compact, lexicographically sortable, URL-friendly identifiers.
 - **Ordered UUIDs (UUID v7)** — Time-ordered, high-performance IDs that improve database indexing and write speed.
 
-Dive into how to set them up using **Laravel 12 migrations**, **Eloquent traits (HasUuids & HasUlids)**, and simple **controller methods**. :contentReference[oaicite:0]{index=0}
+Dive into how to set them up using **Laravel 12 migrations**, **Eloquent traits (HasUuids & HasUlids)**, and simple **controller methods**. 
 
 ## Why UUIDs Matter in Laravel
 
 - **Security & privacy**: Random or non-sequential IDs help prevent attackers from guessing resource counts.
-- **Global uniqueness**: Ideal for distributed systems where merging or syncing across databases matters. :contentReference[oaicite:1]{index=1}
-- **Performance-friendly**: Ordered UUIDs significantly reduce index fragmentation and optimize large table inserts. :contentReference[oaicite:2]{index=2}
+- **Global uniqueness**: Ideal for distributed systems where merging or syncing across databases matters.
+- **Performance-friendly**: Ordered UUIDs significantly reduce index fragmentation and optimize large table inserts. 
 
 ## Quick Guide
 
 | Step | Description |
 |------|-------------|
-| 1⃣ | **Create UUID-based migration**: `<code>$table->uuid('id')->primary();</code>` :contentReference[oaicite:3]{index=3} |
-| 2⃣ | **Use HasUuids or HasUlids trait in your model** to auto-generate IDs. :contentReference[oaicite:4]{index=4} |
-| 3⃣ | **Customize UUID generation** via `newUniqueId()` for specific behaviors like UUID v4. :contentReference[oaicite:5]{index=5} |
+| 1⃣ | **Create UUID-based migration**: `<code>$table->uuid('id')->primary();</code>` 
+| 2⃣ | **Use HasUuids or HasUlids trait in your model** to auto-generate IDs. 
+| 3⃣ | **Customize UUID generation** via `newUniqueId()` for specific behaviors like UUID v4. 
 | 4⃣ | **Choose your ID format** depending on your use case:
 <ul>
 <li>Use `Str::uuid()` for random UUIDs</li>
@@ -37,8 +37,7 @@ For full code examples—covering migrations, traits, model configurations, and 
 
 **[Laravel 12: How to Use UUIDs (with UUID, ULID & Ordered UUID)](https://itstuffsolutiotions.io/laravel-12-how-to-use-uuids-example/)**
 
-Published **August 29, 2025**, it’s a step-by-step guide tailored for Laravel 12 topics. :contentReference[oaicite:7]{index=7}
-
+Published **August 29, 2025**, it’s a step-by-step guide tailored for Laravel 12 topics. 
 ## ⭐ Why This Tutorial Stands Out
 
 - Covers three major ID strategies in one place (UUID, ULID, Ordered UUID).
@@ -49,8 +48,8 @@ Published **August 29, 2025**, it’s a step-by-step guide tailored for Laravel 
 
 ###  Want More?
 
-- Browse related Laravel 12 tutorials like changing date formats, retrieving client IPs, or integrating social logins. :contentReference[oaicite:8]{index=8}
-- Explore categories like **Helper Functions**, **UUIDs**, or **Laravel Eloquent** on the blog for more in-depth content. :contentReference[oaicite:9]{index=9}
+- Browse related Laravel 12 tutorials like changing date formats, retrieving client IPs, or integrating social logins.
+- Explore categories like **Helper Functions**, **UUIDs**, or **Laravel Eloquent** on the blog for more in-depth content. 
 
 ---
 
